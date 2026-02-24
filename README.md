@@ -3,3 +3,11 @@
 WIP
 
 A javascript library implementing the [Poseidon](https://eprint.iacr.org/2019/458.pdf) hash function over multiple curves. Includes circom circuit implementations.
+
+### Test
+
+```sh
+npm i
+sh scripts/build_poseidon.sh
+npm test
+```
